@@ -6,13 +6,11 @@ import (
 )
 
 func main() {
-	var s string
+	var s, result string
 	fmt.Println("Escreva uma string ")
 	fmt.Scanln(&s)
-	for _, i := range s {
-		i++
-		result := strings.ToUpper(s)
-		fmt.Println(result)
+	for i := 0; i < len(s); i++ {
+		result = strings.ToUpper(s)
 	}
-
+	fmt.Println(result)
 }
