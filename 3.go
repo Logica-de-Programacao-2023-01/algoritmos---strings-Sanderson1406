@@ -11,7 +11,7 @@ func main() {
 	var a, n string
 	fmt.Println("Qual caractere você quer trocar?: ")
 	fmt.Scanln(&a)
-	fmt.Println("Qaul o novo caractere: ")
+	fmt.Println("Qual o novo caractere: ")
 	fmt.Scanln(&n)
 	//for _, ss := range s {}
 	s = strings.Replace(s, string(a), string(n), -1)
