@@ -6,9 +6,8 @@ import (
 )
 
 func main() {
-	var ss string
-	fmt.Println("Escreva uma string: ")
-	fmt.Scanln(&ss)
-	newss := strings.Fields(ss)
-	fmt.Println(len(newss))
+	var s string = "Oi, como vão as coisas na vida"
+	ss := strings.Fields(s)
+	quantidade := len(ss)
+	fmt.Println("O número de palavras é: ", quantidade)
 }

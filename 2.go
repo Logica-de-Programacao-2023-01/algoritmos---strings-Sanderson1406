@@ -6,9 +6,7 @@ import (
 )
 
 func main() {
-	var s string = ""
-	fmt.Println("Escreva a string: ")
-	fmt.Scanln(&s)
+	var s string = "Oi, as vezes a vida é legal"
 	s = strings.ReplaceAll(s, " ", "")
 	fmt.Println(s)
 }

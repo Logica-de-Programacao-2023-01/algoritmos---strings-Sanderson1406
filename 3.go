@@ -13,7 +13,6 @@ func main() {
 	fmt.Scanln(&a)
 	fmt.Println("Qual o novo caractere: ")
 	fmt.Scanln(&n)
-	//for _, ss := range s {}
 	s = strings.Replace(s, string(a), string(n), -1)
 	fmt.Println(s)
 }
